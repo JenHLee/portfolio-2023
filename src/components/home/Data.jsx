@@ -57,12 +57,12 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full Stack Developer <br></br> & Graphic Designer</h3>
       <p className="home__description">
-        I'm creative full stack developer and graphic designer based in Calgary, and I'm very passionate and
+        I'm creative Full-stack Developer and Graphic Designer based in Calgary, and I'm very passionate and
         dedicated to my work.
       </p>
 
       <a href="#contact" className="button button--flex">
-        Say Hello
+        Contact Me
         <svg
           class="button__icon"
           xmlns="http://www.w3.org/2000/svg"

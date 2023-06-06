@@ -17,9 +17,8 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Fullstack developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            Full-stack Developer, I create web pages with UI / UX user interface,
+            I have years of experience in Design and Marketing industy.
           </p>
 
           <a download="" href={CV} className="button button--flex">

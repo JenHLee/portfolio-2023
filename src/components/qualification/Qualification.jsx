@@ -36,6 +36,17 @@ const Qualification = () => {
             onClick={() => toggleTab(2)}
           >
             <i className="uil uil-briefcase-alt qualification__icon"></i>
+            Work
+          </div>
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__button qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(3)}
+          >
+            <i className="uil uil-briefcase-alt qualification__icon"></i>
             Experience
           </div>
         </div>
@@ -50,12 +61,13 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">IT-Software Development</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Southern Alberta Insitute of Technology (SAIT) - CA<br/>
+                  3.8/4.0 GPA
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2023
                 </div>
               </div>
 
@@ -74,41 +86,43 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Fine Arts & Media Arts</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Kyung Hee University (KHU) - KR <br/>
+                  3.743.4.3 GPA
+                  Second-highest GPA in a graduating class
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
+                  <i className="uil uil-calendar-alt"></i> 2011 - 2015
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">Fine Arts</h3>
                 <span className="qualification__subtitle">
-                  Spain - Institute
+                  Goyang High School of Arts - KR
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                  <i className="uil uil-calendar-alt"></i> 2008 - 2011
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
+                {/* <span className="qualification__line"></span> */}
               </div>
             </div>
 
-            <div className="qualification__data">
+        {/*  <div className="qualification__data">
               <div></div>
 
-              <div>
+               <div>
                 <span className="qualification__rounder"></span>
-              </div>
+              </div> 
 
-              <div>
+               <div>
                 <h3 className="qualification__title">UX Expert</h3>
                 <span className="qualification__subtitle">
                   Spain - Institute
@@ -116,8 +130,8 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2017 - 2018
                 </div>
-              </div>
-            </div>
+              </div> 
+             </div>  */}
           </div>
 
           <div
@@ -129,12 +143,90 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
+                <h3 className="qualification__title">Full-stack Developer</h3>
                 <span className="qualification__subtitle">
-                  Microsoft - Spain
+                  Volunteering <br/>
+                  New Idea Machine - CA
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Marketing Intern</h3>
+                <span className="qualification__subtitle">
+                  KOTRA Toronto (Consulate General of The Republic of Korea - Commercial Section) - CA
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Marketing Specialist</h3>
+                <span className="qualification__subtitle">Contract<br/>
+                Womanstalk - KR</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2018
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+          <div className="qualification__data">
+              <div></div>
+
+               <div>
+                <span className="qualification__rounder"></span>
+              </div> 
+
+               <div>
+                <h3 className="qualification__title">Graphic Designer</h3>
+                <span className="qualification__subtitle">
+                  Korea Research Institue for Traditional Lanterns - KR
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2015 - 2018
+                </div>
+              </div> 
+            </div>
+          </div>
+          <div
+            className={
+              toggleState === 3
+                ? "qualification__content qualification__content-active"
+                : "qualification__content"
+            }
+          >
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Tech Mentor</h3>
+                <span className="qualification__subtitle">
+                  Volunteering <br/>
+                  New Idea Machine - CA
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
                 </div>
               </div>
 
