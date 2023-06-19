@@ -16,40 +16,40 @@ const Footer = () => {
 
           <li>
             <a href="#portfolio" className="footer__link">
-              Projects
+              Portfolio
             </a>
           </li>
 
           <li>
             <a href="#testimonials" className="footer__link">
-              Testimonials
+              Testimonial
             </a>
           </li>
         </ul>
 
         <div className="footer__social">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.linkedin.com/in/hj1ee/"
             className="footer__social-link"
             target="_blank"
           >
-            <i className="bx bxl-facebook"></i>
+            <i className="bx bxl-linkedin"></i>
           </a>
 
           <a
-            href="https://www.instagram.com/"
+            href="https://dribbble.com/JenHLee"
+            className="footer__social-link"
+            target="_blank"
+          >
+            <i className="bx bxl-dribbble"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/bravehien"
             className="footer__social-link"
             target="_blank"
           >
             <i className="bx bxl-instagram"></i>
-          </a>
-
-          <a
-            href="https://twitter.com/"
-            className="footer__social-link"
-            target="_blank"
-          >
-            <i className="bx bxl-twitter"></i>
           </a>
         </div>
 

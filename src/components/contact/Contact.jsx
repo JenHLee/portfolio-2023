@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import "./contact.css";
 
 const Contact = () => {
@@ -8,15 +8,16 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
-        form.current,
-        "vxDcl4UI2jbOQBn6f"
-      )
-      e.target.reset()
+    console.log(e);
+    emailjs.sendForm(
+      "service_x1hewh5",
+      "template_2ki8hlo",
+      form.current,
+      "vxDcl4UI2jbOQBn6f"
+    );
+    e.target.reset();
   };
+
 
   return (
     <section className="contact section" id="contact">
@@ -32,10 +33,14 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">hj.jennie.lee@gmail.com</span>
+              <span className="contact__card-data">
+                hj.jennie.lee@gmail.com
+              </span>
 
               <a
                 href="mailto:hj.jennie.lee@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="contact__button"
               >
                 Write me{" "}
@@ -44,13 +49,15 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <i className="bx bxl-linkedin contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">999-888-777</span>
+              <h3 className="contact__card-title">LinkedIn</h3>
+              <span className="contact__card-data">Jennie Hyunju Lee</span>
 
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://www.linkedin.com/in/hj1ee/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="contact__button"
               >
                 Write me{" "}
@@ -59,13 +66,18 @@ const Contact = () => {
             </div>
 
             <div className="contact__card">
-              <i className="bx bxl-messenger contact__card-icon"></i>
+              <i className="bx bxl-instagram contact__card-icon"></i>
 
-              <h3 className="contact__card-title">Messenger</h3>
-              <span className="contact__card-data">user.fb123</span>
+              <h3 className="contact__card-title">Instagram</h3>
+              <span className="contact__card-data">@bravehien</span>
 
-              <a href="https://m.me/crypticalcoder" className="contact__button">
-                Write me{" "}
+              <a
+                href="https://www.instagram.com/bravehien"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact__button"
+              >
+                See me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -92,7 +104,7 @@ const Contact = () => {
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="hj.jennie.lee@gmail.com"
+                placeholder="Your email"
                 // defaultValue="hj.jennie.lee@gmail.com"
               />
             </div>
