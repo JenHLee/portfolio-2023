@@ -8,13 +8,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log(e);
+    console.log("data:"  + e);
     emailjs.sendForm(
-      "service_x1hewh5",
-      "template_2ki8hlo",
+      "service_gbiyz8l",
+      "template_kxdvauw",
       form.current,
-      "vxDcl4UI2jbOQBn6f"
-    );
+      "iP2qnqD1xaP3Ekurz"
+    
+      );
     e.target.reset();
   };
 
