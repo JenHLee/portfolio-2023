@@ -4,13 +4,14 @@ import Samurai from "../../assets/samurai.gif";
 import Home_nventory from "../../assets/home_nventory.jpg";
 import React_bookshop from "../../assets/react_bookshop.gif";
 import ReactBlog from "../../assets/reactBlog.jpg";
+import Spaceapp from "../../assets/spaceapp.gif";
 import ReactMovieApp from "../../assets/reactMovieApp.jpg";
 import MoodSpot from "../../assets/moodspot.jpg";
 import ReactUnitConvert from "../../assets/reactUnitConverter.jpg";
 import MomentumChromeApp from "../../assets/momentum.jpg";
 import Spacestagram from "../../assets/spacestagram.jpg";
 import TodoList from "../../assets/todolist.jpg";
-import CakeOrder from "../../assets/cakeorder.jpg";
+// import CakeOrder from "../../assets/cakeorder.jpg";
 import SnowAngel from "../../assets/snowangel.png";
 //UIUX
 import BossandhossUiux1 from "../../assets/bossandhoss-uiux1.png";
@@ -47,6 +48,15 @@ export const projectsData = [
   },
   {
     id: 3,
+    image: Spaceapp,
+    title: "🥈 Lofi Space Game (2nd Award)",
+    desc: "2nd Place of the NASA Space Apps Challenge 2022 - Kaboom.js + Node.js",
+    category: "web",
+    github: "https://github.com/HeshanPunch/SpaceApp2022/tree/main/SpaceApp22",
+    demo: "https://www.youtube.com/watch?v=MZ_g8qZ1Rh8&feature=youtu.be",
+  },
+  {
+    id: 4,
     image: Home_nventory,
     title: "Home nVentory",
     desc: "MERN Stack + RESTful API",
@@ -55,7 +65,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 4,
+    id: 5,
     image: React_bookshop,
     title: "React Bookshop",
     desc: "React.js + Node.js + Express.js + MySQL + RESTful API",
@@ -64,7 +74,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 5,
+    id: 6,
     image: ReactBlog,
     title: "React Blog",
     desc: "MERN Stack + RESTful API",
@@ -72,8 +82,9 @@ export const projectsData = [
     github: "https://github.com/JenHLee/react-blog",
     demo: "",
   },
+
   {
-    id: 6,
+    id: 7,
     image: ReactMovieApp,
     title: "React Movie App",
     category: "web",
@@ -81,7 +92,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 7,
+    id: 8,
     image: MoodSpot,
     title: "Mood Spot",
     desc: "Vue.js + Node.js + MongoDB + RESTful API",
@@ -90,7 +101,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 8,
+    id: 9,
     image: MomentumChromeApp,
     title: "Momentum Chrome App",
     category: "web",
@@ -98,15 +109,15 @@ export const projectsData = [
     demo: "https://jenmomentum.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     image: ReactUnitConvert,
-    title: "Web design",
+    title: "React Unit Converter",
     category: "web",
     github: "https://github.com/JenHLee/react-unit-converter/",
     demo: "",
   },
   {
-    id: 10,
+    id: 11,
     image: Spacestagram,
     title: "Spacestagram",
     category: "web",
@@ -114,23 +125,23 @@ export const projectsData = [
     demo: "https://spacestagram-nasa-api.netlify.app/",
   },
   {
-    id: 11,
+    id: 12,
     image: TodoList,
     title: "Vanila To-do List",
     category: "web",
     github: "https://github.com/JenHLee/ToDoList",
     demo: "https://jentodolist.netlify.app/",
   },
+  // {
+  //   id: 13,
+  //   image: CakeOrder,
+  //   title: "Cake Order App",
+  //   category: "web",
+  //   github: "https://github.com/JenHLee/Cake-Order-Website",
+  //   demo: "https://jenhlee.github.io/Cake-Order-Website/",
+  // },
   {
-    id: 12,
-    image: CakeOrder,
-    title: "Cake Order App",
-    category: "web",
-    github: "https://github.com/JenHLee/Cake-Order-Website",
-    demo: "https://jenhlee.github.io/Cake-Order-Website/",
-  },
-  {
-    id: 13,
+    id: 14,
     image: SnowAngel,
     title: "Snow Angel",
     category: "UIUX",
@@ -138,7 +149,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 14,
+    id: 15,
     image: YYCHealth,
     title: "YYC Health Mobile",
     category: "UIUX",
@@ -146,7 +157,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 15,
+    id: 16,
     image: BossandhossUiux1,
     title: "Boss & Hoss Irrigation Ver. 2",
     category: "UIUX",
@@ -154,7 +165,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 16,
+    id: 17,
     image: BossandhossUiux2,
     title: "Boss & Hoss Irrigation Ver. 1",
     category: "UIUX",
@@ -162,7 +173,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 17,
+    id: 18,
     image: Snapgram,
     title: "Snapgramp Mobile",
     category: "UIUX",
@@ -170,7 +181,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 18,
+    id: 19,
     image: Adren,
     title: "Adren Pattern / Product Design",
     category: "design",
@@ -178,7 +189,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 19,
+    id: 20,
     image: Adren1,
     title: "Adren Pattern / Product Design",
     category: "design",
@@ -186,7 +197,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 20,
+    id: 21,
     image: Adren2,
     title: "Adren Pattern / Product Design",
     category: "design",
@@ -194,7 +205,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 21,
+    id: 22,
     image: Rifle,
     title: "Rifle Stationary Design",
     category: "design",
@@ -202,7 +213,7 @@ export const projectsData = [
     demo: "",
   },
   {
-    id: 22,
+    id: 23,
     image: Rifle1,
     title: "Rifle Brand Design",
     category: "design",
