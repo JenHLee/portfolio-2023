@@ -137,6 +137,10 @@
     column-gap: 0.25rem;
   }
 
+  .work__card{
+    width: 80%
+  }
+
   .work__img {
     width: 80%;
   }
