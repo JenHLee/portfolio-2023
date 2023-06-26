@@ -136,4 +136,8 @@
   .work__filters {
     column-gap: 0.25rem;
   }
+
+  .work__img {
+    width: 80%;
+  }
 }
