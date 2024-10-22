@@ -1,4 +1,5 @@
 //Web
+import Droptheink from "../../assets/droptheink.gif";
 import Bossandhoss from "../../assets/bossandhoss.gif";
 import Samurai from "../../assets/samurai.gif";
 import Home_nventory from "../../assets/home_nventory.jpg";
@@ -19,6 +20,7 @@ import BossandhossUiux2 from "../../assets/bossandhoss-uiux.png";
 import YYCHealth from "../../assets/yychealth.jpg";
 import Snapgram from "../../assets/snapgram.jpg";
 //Design
+import DTI from "../../assets/design-dti.png";
 import Adren from "../../assets/design-adren.jpg";
 import Adren1 from "../../assets/design-adren1.jpg";
 import Adren2 from "../../assets/design-adren2.jpg";
@@ -29,13 +31,20 @@ import Rifle1 from "../../assets/design-rifle1.jpg";
 
 export const projectsData = [
   {
+    id: 0,
+    image: Droptheink,
+    title: "Drop The Ink",
+    desc: "CMS(Squarespace) + JavaScript + HTML + CSS",
+    category: "web",
+    demo: "https://www.droptheink.com",
+  },
+  {
     id: 1,
     image: Bossandhoss,
     title: "Boss&Hoss Irrigation",
     desc: "MERN Stack + TypeScript + GraphQL + Docker + Jest",
     category: "web",
     github: "https://github.com/B-H-Capstone-Project",
-    demo: "http://ec2-3-15-148-140.us-east-2.compute.amazonaws.com/",
   },
   {
     id: 2,
@@ -145,80 +154,88 @@ export const projectsData = [
     image: SnowAngel,
     title: "Snow Angel",
     category: "UIUX",
-    github: "https://www.figma.com/proto/R5TYZy4DxVpief4s7hFzwA/SnowAngel-team-library?type=design&node-id=487-2236&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=487%3A2236",
-    demo: "",
+    demo: "https://www.figma.com/proto/R5TYZy4DxVpief4s7hFzwA/SnowAngel-team-library?type=design&node-id=487-2236&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=487%3A2236",
+    github: "",
   },
   {
     id: 15,
     image: YYCHealth,
     title: "YYC Health Mobile",
     category: "UIUX",
-    github: "https://xd.adobe.com/view/47be4155-bdbf-4c9b-55c2-120185960b67-318f/",
-    demo: "",
+    demo: "https://xd.adobe.com/view/47be4155-bdbf-4c9b-55c2-120185960b67-318f/",
+    github: "",
   },
   {
     id: 16,
     image: BossandhossUiux1,
     title: "Boss & Hoss Irrigation Ver. 2",
     category: "UIUX",
-    github: "https://www.figma.com/proto/ZrB6Rv0s8gKpakJxY3pzgG/Boss-%26-Hoss-New-Version?type=design&node-id=1-3&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A3",
-    demo: "",
+    demo: "https://www.figma.com/proto/ZrB6Rv0s8gKpakJxY3pzgG/Boss-%26-Hoss-New-Version?type=design&node-id=1-3&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=1%3A3",
+    github: "",
   },
   {
     id: 17,
     image: BossandhossUiux2,
     title: "Boss & Hoss Irrigation Ver. 1",
     category: "UIUX",
-    github: "https://www.figma.com/proto/sGjaR5HETlemNmq6Ssols4/Boss%26Hoss-Irrigation-Client-Management-System?node-id=21-125&starting-point-node-id=21%3A125&scaling=scale-down",
-    demo: "",
+    demo: "https://www.figma.com/proto/sGjaR5HETlemNmq6Ssols4/Boss%26Hoss-Irrigation-Client-Management-System?node-id=21-125&starting-point-node-id=21%3A125&scaling=scale-down",
+    github: "",
   },
   {
     id: 18,
     image: Snapgram,
     title: "Snapgramp Mobile",
     category: "UIUX",
-    github: "https://xd.adobe.com/view/8015336c-ea53-4878-6bf6-7477f852279e-f624/",
-    demo: "",
+    demo: "https://xd.adobe.com/view/8015336c-ea53-4878-6bf6-7477f852279e-f624/",
+    github: "",
   },
   {
     id: 19,
-    image: Adren,
-    title: "Adren Pattern / Product Design",
+    image: DTI,
+    title: "DTI Business Card / Logo",
     category: "design",
-    github: "https://dribbble.com/shots/17315255-a-dren-art-design-studio-pattern-design/attachments/12430311?mode=media",
+    github: "",
     demo: "",
   },
   {
     id: 20,
-    image: Adren1,
+    image: Adren,
     title: "Adren Pattern / Product Design",
     category: "design",
-    github: "https://dribbble.com/shots/17315247-a-dren-art-design-studio-pattern-design/attachments/12430302?mode=media",
-    demo: "",
+    demo: "https://dribbble.com/shots/17315255-a-dren-art-design-studio-pattern-design/attachments/12430311?mode=media",
+    github: "",
   },
   {
     id: 21,
-    image: Adren2,
+    image: Adren1,
     title: "Adren Pattern / Product Design",
     category: "design",
-    github: "https://dribbble.com/shots/17315218-a-dren-art-design-studio-pattern-design/attachments/12430273?mode=media",
-    demo: "",
+    demo: "https://dribbble.com/shots/17315247-a-dren-art-design-studio-pattern-design/attachments/12430302?mode=media",
+    github: "",
   },
   {
     id: 22,
-    image: Rifle,
-    title: "Rifle Stationary Design",
+    image: Adren2,
+    title: "Adren Pattern / Product Design",
     category: "design",
-    github: "https://dribbble.com/shots/17315117-RIFLE-Stationery-Brand-Website/attachments/12430168?mode=media",
-    demo: "",
+    demo: "https://dribbble.com/shots/17315218-a-dren-art-design-studio-pattern-design/attachments/12430273?mode=media",
+    github: "",
   },
   {
     id: 23,
+    image: Rifle,
+    title: "Rifle Stationary Design",
+    category: "design",
+    demo: "https://dribbble.com/shots/17315117-RIFLE-Stationery-Brand-Website/attachments/12430168?mode=media",
+    github: "",
+  },
+  {
+    id: 24,
     image: Rifle1,
     title: "Rifle Brand Design",
     category: "design",
-    github: "https://dribbble.com/shots/17315098-RIFLE-Stationery-Brand/attachments/12430149?mode=media",
-    demo: "",
+    demo: "https://dribbble.com/shots/17315098-RIFLE-Stationery-Brand/attachments/12430149?mode=media",
+    github: "",
   },
 ];
 

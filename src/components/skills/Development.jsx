@@ -1,6 +1,6 @@
 import React from "react";
 
-const Backend = () => {
+const Development = () => {
   return (
     <div className="skills__content">
       <h3 className="skills__title">Development</h3>
@@ -11,8 +11,8 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">Git/GitHub</h3>
-              <span className="skills__level">Intermediate</span>
+              <h3 className="skills__name">Windows/Unix/Linux</h3>
+              <span className="skills__level">Advancesd/Intermediate</span>
             </div>
           </div>
 
@@ -20,7 +20,36 @@ const Backend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
+              <h3 className="skills__name">Git/GitHub/Git Bash</h3>
+              <span className="skills__level">Advanced</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Jest</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="skills__group">
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
               <h3 className="skills__name">Docker</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i class="bx bx-badge-check"></i>
+
+            <div>
+              <h3 className="skills__name">Oracle Cloud/AWS</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -34,38 +63,9 @@ const Backend = () => {
             </div>
           </div>
         </div>
-
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Jira/Trello</h3>
-              <span className="skills__level">Advanced</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Oracle Cloud</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">AWS(EC2/Nginx)</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
 };
 
-export default Backend;
+export default Development;

@@ -105,7 +105,6 @@ const Qualification = () => {
                   Second-highest GPA in a class of 2015
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2011 - 2015
                 </div>
               </div>
 
@@ -128,7 +127,6 @@ const Qualification = () => {
                 Goyang High School of Arts - KR
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2008 - 2011
                 </div>
               </div> 
              </div> 
@@ -142,14 +140,15 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              
               <div>
-                <h3 className="qualification__title">Full-stack Developer</h3>
+                <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
-                  Volunteering <br/>
-                  New Idea Machine - CA
+                  Internship <br/>
+                  OceanML Corporation - Calgary, CA
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2023 - 2024
                 </div>
               </div>
 
@@ -158,6 +157,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+            
 
             <div className="qualification__data">
               <div></div>
@@ -168,23 +168,26 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Marketing Intern</h3>
+                <h3 className="qualification__title">Fullstack Developer</h3>
                 <span className="qualification__subtitle">
-                  KOTRA Toronto (Consulate General of The Republic of Korea - Commercial Section) - CA
+                  Capstone Project <br/>
+                  Boss & Hoss Irrigation Corporation - Calgary, CA
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2019
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
             </div>
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Marketing Specialist</h3>
-                <span className="qualification__subtitle">Contract<br/>
-                Womanstalk - KR</span>
+                <h3 className="qualification__title">Fullstack Developer</h3>
+                <span className="qualification__subtitle">
+                Volunteering <br/>
+                New Idea Machine - Calgary, CA
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2018
+                  <i className="uil uil-calendar-alt"></i> 2022-2022
                 </div>
               </div>
               <div>
@@ -201,12 +204,13 @@ const Qualification = () => {
               </div> 
 
                <div>
-                <h3 className="qualification__title">Graphic Designer</h3>
+                <h3 className="qualification__title">Marketing Specialist</h3>
                 <span className="qualification__subtitle">
-                  Korea Research Institue for Traditional Lanterns - KR
+                Internship<br/>
+                KOTRA Toronto (Consulate General of The Republic of Korea - Commercial Section) - Toronto CA
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2015 - 2018
+                  <i className="uil uil-calendar-alt"></i> 2018-2019
                 </div>
               </div> 
             </div>
@@ -225,7 +229,7 @@ const Qualification = () => {
                 SSC (SAIT Student Code) Club - CA<br/>
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Current
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
 

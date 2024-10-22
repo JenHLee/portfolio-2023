@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Jennie-cv.pdf"
 import Info from "./Info";
 
@@ -10,11 +11,15 @@ const About = () => {
       <span className="section__subtitle">My introduction</span>
 
       <div className="about__container container grid">
+        <img src={AboutImg} alt="" className="about__img" />
+
         <div className="about__data">
           <Info />
 
           <p className="about__description">
-          As a Full-Stack Developer, I specialize in creating web pages with a focus on UI/UX design, leveraging AI and SaaS platforms. I have several years of experience in the design and marketing industry.     </p>
+          As a Full-Stack Developer, I specialize in creating web pages with a focus on UI/UX design. 
+          I have several years of experience in the design and marketing industry.
+          </p>
 
           <a download="" href={CV} className="button button--flex">
             Download CV

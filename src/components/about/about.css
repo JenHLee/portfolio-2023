@@ -1,17 +1,15 @@
 .about__container {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    column-gap: 4rem;
+    text-align: center;
+    row-gap: 2.5rem;
 }
 
-.about__img {
-    width: 350px;
-    border-radius: 1.5rem;
-    justify-self: center;
-}
 
 .about__info {
-    grid-template-columns: repeat(3, 140px);
+    display: flex; /* 정보 섹션에 플렉스 박스 사용 */
+    justify-content: center; /* 수평 중앙 정렬 */
     gap: 0.5rem;
     margin-bottom: var(--mb-2);
 }
@@ -43,13 +41,13 @@
     padding: 0 4rem 0 0;
     margin-bottom: var(--mb-2-5);
 }
-
-/*=============== BREAKPOINTS ===============*/
-/* For large devices */
+/*=============== 브레이크포인트 ===============*/
+/* 큰 장치에 대한 스타일 */
 @media screen and (max-width: 992px) {
     .about__container {
-        grid-template-columns: 1fr;
-        row-gap: 2.5rem;
+        flex-direction: column; /* 작은 화면에서 세로 방향 유지 */
+        row-gap: 2.5rem; /* 행 간격 유지 */
+        align-items: center; /* 항목 중앙 정렬 */
     }
 
     .about__img {
@@ -63,31 +61,33 @@
     .about__data {
         text-align: center;
     }
-
-    .about__info {
-        justify-content: center;
-    }
-
     .about__description {
-        padding: 0 5rem;
-        margin-bottom: 2rem;
+        max-width: 600px; /* 너비 제한 */
+        width: 90%; /* 원하는 비율로 너비 설정 */
+        margin: 0 auto; /* 중앙 정렬 */
+        padding: 0 2rem; /* 양쪽 패딩 */
+        line-height: 1.5; /* 가독성 향상 */
+        margin-bottom: var(--mb-2-5);
+        text-align: center; /* 텍스트 중앙 정렬 */
     }
-  }
+    
+}
   
-  /* For medium devices */
-  @media screen and (max-width: 576px) {
+/* 중간 장치에 대한 스타일 */
+@media screen and (max-width: 576px) {
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        flex-direction: column; /* 정보 항목 스택 */
+        align-items: center; /* 중앙 정렬 */
     }
 
     .about__description {
         padding: 0;
     }
-  }
+}
   
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+/* 작은 장치에 대한 스타일 */
+@media screen and (max-width: 350px) {
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column; /* 정보 항목 스택 */
     }
-  }
+}

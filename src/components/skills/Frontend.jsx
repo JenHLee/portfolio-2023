@@ -11,7 +11,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">HTML/CSS</h3>
+              <h3 className="skills__name">HTML/CSS (MUI, Tailwind)</h3>
               <span className="skills__level">Advanced</span>
             </div>
           </div>
@@ -20,8 +20,8 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">JavaScript</h3>
-              <span className="skills__level">Advanced</span>
+              <h3 className="skills__name">JavaScript/TypeScript</h3>
+              <span className="skills__level">Advanced/Intermediate</span>
             </div>
           </div>
 
@@ -29,36 +29,7 @@ const Frontend = () => {
             <i class="bx bx-badge-check"></i>
 
             <div>
-              <h3 className="skills__name">TypeScript</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">MUI/Tailwind</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">React Js</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-
-            <div>
-              <h3 className="skills__name">Vue Js</h3>
+              <h3 className="skills__name">React.js/Vue.js/Next.js</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
