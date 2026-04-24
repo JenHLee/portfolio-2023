@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-//import CV from "../../assets/Jennie-cv.pdf"
 import Info from "./Info";
 
 const About = () => {
@@ -16,8 +15,6 @@ const About = () => {
           <p className="about__description">
           As a Full-Stack Developer, I specialize in creating web pages with a focus on UI/UX design, leveraging AI and SaaS platforms. I have several years of experience in the design and marketing industry.     </p>
 
-          //<a download="" href={CV} className="button button--flex">
-            Download CV
             <svg
               class="button__icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +40,6 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
         </div>
       </div>
     </section>
